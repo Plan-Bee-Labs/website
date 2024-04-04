@@ -1,0 +1,43 @@
+{
+	"name": "plan_bee_labs_web_site",
+	"version": "0.0.1",
+	"description": "Plan Bee Labs web site",
+	"author": {
+		"name": "Plan Bee Labs",
+		"email": "buzz@bee4.me"
+	},
+	"devDependencies": {
+		"@babel/core": "*",
+		"@babel/plugin-transform-runtime": "*",
+		"@babel/preset-env": "*",
+		"@vue/compiler-sfc": "*",
+		"@webpack-cli/generators": "*",
+		"babel-loader": "*",
+		"css-loader": "*",
+		"dotenv-webpack": "*",
+		"html-webpack-plugin": "*",
+		"mini-css-extract-plugin": "*",
+		"prettier": "*",
+		"sass": "*",
+		"sass-loader": "*",
+		"source-map-loader": "*",
+		"style-loader": "*",
+		"vue-i18n": "*",
+		"vue-loader": "*",
+		"vue-router": "*",
+		"vuex": "*",
+		"webpack": "*",
+		"webpack-cli": "*",
+		"webpack-dev-server": "*",
+		"webpack-remove-empty-scripts": "*"
+	},
+	"scripts": {
+		"build": "webpack --mode=production --node-env=production",
+		"build:dev": "webpack --mode=development",
+		"build:prod": "webpack --mode=production --node-env=production",
+		"watch": "webpack --watch",
+		"serve": "webpack serve"
+	},
+	"dependencies": {
+	}
+}
