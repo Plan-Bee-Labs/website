@@ -3,8 +3,8 @@
 	"version": "0.0.1",
 	"description": "Plan Bee Labs web site",
 	"author": {
-		"name": "Plan Bee Labs",
-		"email": "buzz@bee4.me"
+		"name": "Maya The Bee",
+		"email": "bot@0xbee.ai"
 	},
 	"devDependencies": {
 		"@babel/core": "*",
